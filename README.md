@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .login{
+                border:3px solid yellow;
+                max-width:max content;
+                padding:20px 30px;
+                margin:10px auto;
+                text-align: center;
+                text-decoration: blue;
+            }
+            input[type-button]{
+                display:block;
+                background-color:blanchedalmond;
+                margin:0 auto;
+                div [class=ol]{
+                    margin:80;
+                }
+            }
+            </style>
+            </head>
+            <body>
+                <div class="login">
+                    <form>
+                        <label for="email">Enter your email:</label>
+                        <input type="email"name="email"id="email"/>
+
+                        <br/>
+                        <label for="password">Enter your password:</label>
+                        <input type="password"name="password"id="password"/>
+                        <br/>
+
+                        <input type="button" value="LOGIN"/>
+                        <br/>
+                            <input type="radio"name="yes"value=""/>yes<br/>
+                            <input type="radio"name="no"value=""/>no<br/>
+                            <br>
+                            <input type="checkbox"name="metallic logo"value=""/>metallic logo<br>
+                            <input type="checkbox"name="Sparkley laces"value=""/>Sparkley laces<br>
+                            <br>
+                            <ol>
+                            <li>Maseno University</li>
+                            <li>Egerton University</li>
+                            <li>Moi University</li>
+                            <li>Chuka University</li>
+                            </ol>
+                            <input type="button"value="Reset"/><br>
+                            <input type="button"value="Submit"/><br>
+                            <select name="Cars" size="5">  
+                                <option value="Merceders"> Merceders </option>  
+                                <option value="BMW"> BMW </option>  
+                                <option value="Jaguar"> Jaguar </option>  
+                                <option value="Lamborghini"> Lamborghini </option>  
+                                <option value="Ferrari"> Ferrari </option>  
+                                <option value="Ford"> Ford </option>  
+                            </select>  
+                            <br>
+                            <select>
+                            <option value="Track">Track</option></select><br>
+                             <div class="main">
+                               <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                               <input type="search"placeholder="Type here to search">
+                               <a href="#"<i class="fa fa-search"></i></a>
+                               <a href="http://www.google.com"><br>Google</a>
+                               </div>
+                                
+                    </form>
+    
+            </body>
+        </html>
